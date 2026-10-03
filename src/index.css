@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #2e1a47;
+  --color-grape: #6d3fc0;
+  --color-grape-dark: #54309a;
+  --color-lilac: #c9b3f0;
+  --color-mist: #efe7fb;
+  --color-haze: #f8f4fe;
+}
+
+body { @apply bg-mist text-ink font-sans antialiased; }
